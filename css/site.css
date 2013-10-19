@@ -87,7 +87,6 @@ header ul li span {
   width: 28px;
   margin-right: 10px;
   position: relative;
-  
 }
 
 header .github-link span {
@@ -111,7 +110,7 @@ header .email-link span {
 
 @media (max-width: 991px) {
   header { text-align: center; }
-  header h1 { margin-top: 10px; }
+  header img.photo { margin-top: -25px; margin-bottom: 25px; }
 }
 
 #github-projects {
@@ -125,9 +124,17 @@ header .email-link span {
 }
 
 #github-projects .repo-link {
-  margin-right: 22px;
+  margin-right: 19px;
   position: relative;
   top: -4px;
+}
+
+#github-projects .github-buttons {
+  display: inline-block;
+}
+
+@media (max-width: 470px) {
+  #github-projects .container { background-position: center center; }
 }
 
 #mooc-participation {
@@ -156,6 +163,10 @@ header .email-link span {
 #research .container {
   background: url(../img/octicon-microscope-bg.svg) right bottom no-repeat;
   background-size: 400px;
+}
+
+@media (max-width: 420px) {
+  #research .container { background-position: center bottom; }
 }
 
 footer {

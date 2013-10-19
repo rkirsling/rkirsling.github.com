@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- extracted from GitHub Octicons SVG -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112px" height="80px">
+  <defs>
+    <g id="image" transform="scale(0.125,-0.125)">
+      <path d="M0 640v-640h896v640h-896z m768-64l-320-264-320 264h640z m-704-64l252-192-252-192v384z m64-448l254 206 66-50 66 50 254-206h-640z m704 64l-252 192 252 192v-384z" />
+    </g>
+  </defs>
+
+  <use xlink:href="#image" x="0" y="80" fill="#FFFFFF"/>
+</svg>

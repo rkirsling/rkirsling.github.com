@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- extracted from Ligature Symbols 2.11 SVG [http://kudakurage.com/ligature_symbols/] -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98px" height="67px">
+  <defs>    
+    <g id="image" transform="scale(0.125,-0.125)">
+      <path d="M390 568l390 -156l-390 -155l-291 116c-18 -15 -31 -39 -33 -66h7c8 0 14 -6 14 -14v-37c0 -8 -6 -14 -14 -14h-5l19 -194c1 -8 -5 -15 -13 -15h-35c-8 0 -14 7 -14 15l20 194h-5c-8 0 -15 6 -15 14v37c0 8 7 14 15 14h11c2 29 15 54 33 72l-84 33zM379 229l11 -4l11 4 l214 86l16 -177c1 -12 -7 -17 -18 -12l-84 43c-11 6 -29 5 -39 -1l-81 -46c-10 -6 -28 -6 -38 0l-81 46c-10 6 -28 7 -38 1l-85 -43c-11 -6 -19 0 -18 12l16 177z" />
+    </g>
+  </defs>
+
+  <use xlink:href="#image" x="0" y="71" fill="#FFFFFF" opacity="0.1"/>
+</svg>

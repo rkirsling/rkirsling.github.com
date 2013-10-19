@@ -1,0 +1,171 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+body, h1, h2, h3 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+h2+p {
+  margin: -10px 0 20px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+a, a:hover, a:focus {
+  color: #2AB2D5;
+}
+
+ul {
+  list-style: none;
+}
+
+ul:last-child {
+  margin: 0;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.photo {
+  margin: 0 auto;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slab {
+  position: relative;
+}
+
+.slab .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header {
+  box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0 0 10px;
+  border-bottom: 1px solid #585858;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  margin: 0 0 20px;
+}
+
+header ul li {
+  display: inline-block;
+  font-size: 21px;
+}
+
+header ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+header ul li span {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  margin-right: 10px;
+  position: relative;
+  
+}
+
+header .github-link span {
+  background: url(../img/octicon-mark-github.svg) no-repeat;
+  background-size: contain;
+  top: 3px;
+}
+
+header .cv-link span {
+  background: url(../img/octicon-file-pdf.svg) no-repeat;
+  background-size: contain;
+  top: 2px;
+  margin-right: 6px;
+}
+
+header .email-link span {
+  background: url(../img/octicon-mail.svg) no-repeat;
+  background-size: contain;
+  top: 10px;
+}
+
+@media (max-width: 991px) {
+  header { text-align: center; }
+  header h1 { margin-top: 10px; }
+}
+
+#github-projects {
+  background-color: #081922;
+  z-index: 1;
+}
+
+#github-projects .container {
+  background: url(../img/octicon-mark-github-bg.svg) right center no-repeat;
+  background-size: 450px;
+}
+
+#github-projects .repo-link {
+  margin-right: 22px;
+  position: relative;
+  top: -4px;
+}
+
+#mooc-participation {
+  box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.5), 0 -3px 10px 0px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+#mooc-participation .container {
+  background: url(../img/ligature-college-bg.svg) center center no-repeat;
+  background-size: 80%;
+}
+
+@media (max-width: 1199px) {
+  #mooc-participation .container { background-size: 100%; }
+}
+
+@media (max-width: 767px) {
+  #mooc-participation .container { background-size: 115%; }
+}
+
+#research {
+  background-color: #081922;
+  z-index: 1;
+}
+
+#research .container {
+  background: url(../img/octicon-microscope-bg.svg) right bottom no-repeat;
+  background-size: 400px;
+}
+
+footer {
+  position: relative;
+  box-shadow: 0 -3px 10px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  z-index: 10;
+}
+
+footer .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

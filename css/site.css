@@ -59,6 +59,27 @@ li:not(:last-child) {
   padding-bottom: 50px;
 }
 
+aside {
+  position: relative;
+  box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #300;
+  font-size: 16px;
+  z-index: 20;
+}
+
+aside .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+aside .emoji {
+  margin-right: 10px;
+  font-size: 32px;
+}
+
 header {
   box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.5);
   z-index: 10;
